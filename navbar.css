@@ -1,0 +1,65 @@
+header, .menu{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.drop{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo-img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu-item{
+    padding: 0 100px 0 0;
+    font-size: 25px;
+}
+
+.linc{
+    width: 75px;
+    display: block;
+}
+
+.linc:hover {
+    color: rgb(50, 89, 50);
+    font-family: 'Mynerve', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.linc:not(:hover){
+    font-weight: 400;
+    color: green;
+    transition: 1s;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu-logo{
+    display: none;
+}
+
+
+
+
